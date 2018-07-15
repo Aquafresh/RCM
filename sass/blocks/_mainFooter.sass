@@ -1,0 +1,79 @@
+.mainFooter
+
+	padding-top: 30px
+	padding-bottom: 75px
+	border-bottom: 8px solid $green
+	border-top: 1px solid #e9ebed
+
+	&Item
+
+		&Title
+
+			font-size: $font-size-lg
+			line-height: 32px
+			color: $gray
+			margin-bottom: 7px
+
+		&List
+
+			a
+
+				line-height: 24px;
+				color: $blue
+
+				&:hover
+
+					color: darken($blue, 10%)
+
+		&Social
+
+			display: -webkit-flex
+			display: -moz-flex
+			display: -ms-flex
+			display: -o-flex
+			display: flex
+			margin-top: 10px
+
+			li
+
+				margin-right: 20px
+
+				&:last-child
+
+					margin-right: 0
+
+			a
+
+				display: inline-block
+				vertical-align: top
+				border-radius: 50%
+				width: 35px
+				height: 35px
+				transition: all linear 0.2s
+
+				&.tw-icon
+
+					background: url('../img/twitter-icon.svg') no-repeat 50% 50%
+					background-color: #55acef
+
+					&:hover
+
+						background-color: darken(#55acef,10%)
+
+				&.in-icon
+
+					background: url('../img/invision-icon.svg') no-repeat 50% 50%
+					background-color: #0876b5
+
+					&:hover
+
+						background-color: darken(#0876b5,10%)
+
+				&.fb-icon
+
+					background: url('../img/facebook-icon.svg') no-repeat 50% 50%
+					background-color: #3b5999
+
+					&:hover
+
+						background-color: darken(#3b5999,10%)

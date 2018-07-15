@@ -1,0 +1,99 @@
+.mainEvent
+
+	text-align: center
+	padding-top: 50px
+	padding-bottom: 70px
+	background: url('../img/step-bg-image.svg') no-repeat
+	background-position: 0px 70px
+	background-size: contain
+	background-color: #f8fbff
+
+	&Title
+
+		font-size: 36px
+		line-height: 42px
+		color: $gray
+		margin-left: auto
+		margin-right: auto
+		margin-bottom: 20px
+		width: 100%
+		max-width: 766px
+
+	&Date
+
+		font-size: $font-size-sm
+		color: #ffffff
+		border-radius: 30px
+		background-color: $green
+		display: inline-block
+		vertical-align: middle
+		padding: 4px 15px
+		font-size: 14px
+		line-height: 16px
+		margin-bottom: 30px
+
+	&Text
+
+		font-size: $font-size-lg
+		line-height: 24px
+		color: $blue
+		margin-bottom: 32px
+		width: 100%
+		max-width: 766px
+		margin: 0 auto
+		margin-bottom: 32px
+
+	&Media
+
+
+		width: 100%
+		margin: 0 auto
+		margin-bottom: 40px
+		height: 540px
+		max-width: 960px
+		border-radius: 8px
+		box-shadow: 0 10px 20px 0 rgba(103, 134, 172, 0.15)
+		background-color: #f5faff
+		border: solid 10px #ffffff
+		display: block
+
+		iframe
+
+			padding: 0
+			margin: 0
+			border: none
+			width: 100%
+			height: 100%
+			display: block
+
+	&Controls
+
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		justify-content: center
+		padding-left: 10px
+		padding-right: 10px
+		flex-wrap: wrap
+
+	&BtnSubscribe
+
+		@extend .myBtnGreen
+		margin: 0 10px
+		margin-bottom: 10px
+
+	&BtnFree
+
+		@extend .myBtnOrange
+		margin: 0 10px
+		margin-bottom: 10px
+
+	&Comment
+
+		padding: 80px 0
+		width: 100%
+		margin: 0 auto
+		max-width: 960px
+

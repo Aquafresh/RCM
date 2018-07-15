@@ -1,0 +1,60 @@
+.mainContent
+
+	&Title
+
+		font-size: 36px
+		color: $gray
+		text-align: center
+		position: relative
+		z-index: 1
+		line-height: 46px
+		margin-bottom: 60px
+
+		&:after
+
+			content: ''
+			position: absolute
+			margin: 0 auto
+			left: 0
+			right: 0
+			bottom: -25px
+			width: 80px
+			height: 2px
+			background-image: linear-gradient(to left, #fd6502, #da4816)
+
+		&--suptitleLower
+
+			margin-bottom: 0
+
+			&:after
+
+				display: none
+
+			& + .mainContentSuptitle
+
+				margin-bottom: 75px
+
+				&:after
+
+					content: ''
+					position: absolute
+					margin: 0 auto
+					left: 0
+					right: 0
+					bottom: -25px
+					width: 80px
+					height: 2px
+					background-image: linear-gradient(to left, #fd6502, #da4816)
+
+	&Suptitle
+
+		text-align: center
+		color: $blue
+		position: relative
+		z-index: 1
+
+		& + .mainContentTitle
+
+			margin-top: 10px
+
+

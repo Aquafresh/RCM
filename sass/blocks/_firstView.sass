@@ -1,0 +1,59 @@
+.firstView
+
+	text-align: center
+	padding-top: 25px
+	padding-bottom: 70px
+
+	&--events
+
+		background: url('../img/events-bg.svg') no-repeat 30px 30%
+		background-size: contain
+		background-color: #f8fbff
+
+	&--about
+
+		background-color: #f8fbff
+
+	&Title
+
+		color: $gray
+		font-size: 36px
+		line-height: 42px
+		margin-bottom: 17px
+
+	&Text
+
+		font-size: $font-size-lg
+		line-height: 24px
+		color: $blue
+		margin: 0 auto
+		margin-bottom: 30px
+		width: 100%
+		max-width: 766px
+
+	&Control
+
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		justify-content: center
+		flex-wrap: wrap
+		margin-bottom: 55px
+
+	&Btn
+
+		&OldEvents
+
+			@extend .myBtnOrange
+			margin: 0 10px 10px 10px
+
+		&NewEvents
+
+			@extend .myBtnGreen
+			margin: 0 10px 10px 10px
+
+
+
+
